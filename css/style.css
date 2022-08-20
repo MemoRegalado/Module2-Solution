@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+}
+
+.row{
+    width:100%;
+}
+
+.tittle{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dishes{
+    margin:10px;
+    border: solid 2px;
+    background: rgb(139, 137, 133);
+    position: relative;
+}
+
+.redColor{
+    background: red;
+}
+
+.salmonColor{
+    background: salmon;
+}
+
+.bisqueColor{
+    background: rgb(215, 183, 144);
+}
+
+.tittleDishes {
+   /* float: right; */
+    position: absolute;
+    top:0px;
+    left: 50%;
+    border: solid 1px #000000;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.descriptionDishes {
+    padding: 15px;
+}
+
+@media (min-width: 992px){
+    .col-lg-4{
+        width: 33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        width: 50%;
+        float: left;
+    }
+
+    .col-md-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+
+
+
+
